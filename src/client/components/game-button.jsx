@@ -7,7 +7,7 @@ GameButton = React.createClass({
   render() {
     return (
       <div className="game-button">
-        <button onClick={this.handlePush}></button>
+        <button onClick={this.handlePush}><span>&nbsp;</span></button>
       </div>
     );
   }

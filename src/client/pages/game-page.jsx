@@ -14,9 +14,14 @@ GamePage = React.createClass({
       <div className="game-page">
         <GameQuit />
 
-        <GameStatus lastClick={this.state.lastClick}/>
-
-        <GameButton onPushCallback={this.handlePush} />
+        <div className="row">
+          <div className="col m6 s12">
+            <GameStatus lastClick={this.state.lastClick}/>
+          </div>
+          <div className="col m6 s12">
+            <GameButton onPushCallback={this.handlePush} />
+          </div>
+        </div>
       </div>
     );
   }
