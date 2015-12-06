@@ -6,7 +6,7 @@
   @extend .waves-effect;
   @extend .waves-light;
 
-  background-color: $theme-color;
+  background-color: $theme-color !important;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
